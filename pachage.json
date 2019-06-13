@@ -1,0 +1,21 @@
+{
+  "name": "peer-peer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.6.1",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "getusermedia": "^2.0.1",
+    "peer": "^0.2.10",
+    "simple-peer": "^9.2.1"
+  }
+}
